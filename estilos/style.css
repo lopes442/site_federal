@@ -1,112 +1,100 @@
 @charset "UTF-8";
 
+*{
+  padding: 0px;
+  margin: 0px;
+}
 
-  *{
-    padding: 0px;
-    margin: 0px;
-  }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  body
-  {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-
-
-
- .header{
+.header {
   height: 20vh;
   width: 100%;
-  display:flex;
+  display: flex;
   background: yellow;
   background-attachment: fixed;
- }
-
- .logo{
-  padding: 10px;
-  font-weight: bolder;
-  font-size: 40px;
-  
- }
-
- .log{
-  color: red;
-  font-size: 40px;
-  font-weight: bolder;
-  display: inline-flex;
-  position: relative;
-  right: 15px;
-
-
- }
- 
- .links a{
-  text-decoration: none;
-  padding: 10px;
-  display: inline-flex;
-  position: relative;
-  top: 0px;
-  left: 200px;
-  font-size: 1.5em;
-  
- }
-
-
- .btn-entrar{
-  display: inline-flex;
-  color: beige;
-  padding: 5px;
-  height: 20px;
-  float: right;
-  position: relative;
-  top: 0px;
-  left: 220px;
-  font-size: 1.5em;
-  text-align: center;
- }
-
-.bt{
- width: 100px;
- height: 45px;
- border-radius: 13px 13px 13px 13px;
- color: beige;
- background-color: black;
- font-size: 20px;
- border: none;
- text-align: center;
- ;
- 
-  
 }
- .cp{
-  max-width: 100%;  
- }
 
- .cpt{
+.logo {
+  font-weight: bold;
+  font-size: 2em;
+  text-indent: 10px;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+
+
+.links  {
+  text-decoration: none;
+  display: inline-block;
+  position: fixed;
+  top: 0px;
+  right: 150px;
+  font-size: 1.3em;
+}
+
+.links a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.btn-entrar {
+  display: inline-block;
+  color:white;
+  background-color: rgb(8, 22, 51);
+  height: 35px;
+  width: 100px;
+  font-weight: bold;
+  padding: 10px;
+  position: fixed;
+  top: 6px;
+  right: 25px;
+  border-radius: 6px 6px 6px ;
+  border: solid 1px black;
+  text-align: center;
+
+}
+
+.bt {
+  width: 100px;
+  height: 45px;
+  border-radius: 13px 13px 13px 13px;
+  color: beige;
+  background-color: black;
+  font-size: 20px;
+  border: none;
+  text-align: center;
+}
+
+.cp {
+  max-width: 100%;
+}
+
+.cpt {
   width: 100%;
   height: 100vh;
-  background-image: url('../img/aaa.jpg');
+  background-image: url("../img/aaa.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
 
- }
-
- 
-
- h1{
+h1 {
   color: beige;
   text-indent: 40px;
   position: relative;
   top: 100px;
-  }
+}
 
-  p{
-    color: beige;
-    position: relative;
-    top: 150px;
-    text-indent: 40px;
-    font-size: 20px;
-    
-  }
-
+p {
+  color: beige;
+  position: relative;
+  top: 150px;
+  text-indent: 40px;
+  font-size: 20px;
+}

@@ -28,9 +28,9 @@ body {
 
 
 .links  {
-  text-decoration: none;
   display: inline-block;
   position: fixed;
+  text-decoration: none;
   top: 0px;
   right: 150px;
   font-size: 1.3em;

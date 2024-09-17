@@ -6,35 +6,26 @@
 }
 
 body {
+ background-color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
-  height: 20vh;
+  height: 25vh;
   width: 100%;
   display: flex;
-  background: yellow;
+  background-color: yellow;
+  border-radius: 0px 0px 30px 30px ;
 }
 
 .logo {
-  font-weight: bold;
-  font-size: 3em;
-  text-indent: 10px;
-  text-decoration: none;
-  margin-top: 30px;
-  color: black;
-  
-
+  background-image: url(../img/gva.png);
+  background-repeat: no-repeat;
+  padding: 20px;
+  height: 20vh;
+  width: 500px;
+  position: absolute;
 }
-.logo1{
-  font-weight: bold;
-  font-size: 1.7em;
-  text-indent: 0px;
-  text-decoration: none;
-  margin-top: 50px;
-  color: red;
-}
-
 
 
 .links  {
@@ -76,7 +67,7 @@ body {
   height: 35px;
   width: 100px;
   position: relative;
-  bottom: 300px;
+  bottom: 200px;
   left: 35px;
   border: none;
   border-radius: 2em;
@@ -89,7 +80,7 @@ body {
   height: 35px;
   width: 100px;
   position: relative;
-  bottom: 300px;
+  bottom: 200px;
   left: 80px;
   border: none;
   border-radius: 2em;
@@ -104,19 +95,28 @@ body {
 
 .cp {
   max-width: 100%;
-}
-
-.cpt {
-  width: 100%;
-  height: 100vh;
+  width: 600px;
+  position: relative;
+  right: -400px;
   background-image: url("../img/aaa.jpg");
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  
+}
+
+.cpt {
+  height: 100vh;
+  text-align: left;
+  position: relative;
+  left: -385px;
+  top: 150px;;
+  padding: 10px;
+
+  
 }
 form{
   position: relative;
-  top: -355px;
+  top: -250px;
   margin-left: 30px;
   margin-right: 300px;
   left: 0;
@@ -124,30 +124,55 @@ form{
   bottom: 0;
 }
 form.search input {
+  
   line-height: 3.25em;
   padding: 0 7em 0 1.5em;
   border: 0;
   outline: 0;
-  width: 100%;
+  width: 80%;
   border-radius: 7px;
   font-size: 0.9em;
   font-weight: 300;
 }
 
-
-
-
 h1 {
   color: beige;
-  text-indent: 40px;
-  position: relative;
-  top: 100px;
+  text-align: left;
+
+
 }
 
 p {
-  color: beige;
   position: relative;
-  top: 150px;
-  text-indent: 40px;
+  top: 10px;
+  color: beige;
+  text-align: left;
   font-size: 20px;
 }
+
+.stats{
+  background-color: grey;
+  display: flex;
+  border-radius: 10px 10px 0px 0px;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+.dados_itens{
+  width: 100%;
+  padding: 10px;
+  padding-top: 10px;
+  display: flex;
+  
+}
+
+.dados_itens a{
+text-decoration: none;
+color: white;
+font-size: 18px;
+}
+
+.dados_itens img {
+  width: 70px;
+}
+

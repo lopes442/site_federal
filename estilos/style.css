@@ -14,15 +14,25 @@ body {
   width: 100%;
   display: flex;
   background: yellow;
-  background-attachment: fixed;
 }
 
 .logo {
   font-weight: bold;
-  font-size: 2em;
+  font-size: 3em;
   text-indent: 10px;
   text-decoration: none;
-  margin-top: 5px;
+  margin-top: 30px;
+  color: black;
+  
+
+}
+.logo1{
+  font-weight: bold;
+  font-size: 1.7em;
+  text-indent: 0px;
+  text-decoration: none;
+  margin-top: 50px;
+  color: red;
 }
 
 
@@ -45,7 +55,7 @@ body {
 
 .btn-entrar {
   display: inline-block;
-  color:white;
+  color:beige;
   background-color: rgb(8, 22, 51);
   height: 35px;
   width: 100px;
@@ -54,21 +64,42 @@ body {
   position: fixed;
   top: 6px;
   right: 25px;
-  border-radius: 6px 6px 6px ;
+  border-radius: 2em ;
   border: solid 1px black;
   text-align: center;
 
 }
 
-.bt {
+.btn-buscar {
+  background-color: yellow;
+  color: black;
+  height: 35px;
   width: 100px;
-  height: 45px;
-  border-radius: 13px 13px 13px 13px;
-  color: beige;
-  background-color: black;
-  font-size: 20px;
+  position: relative;
+  bottom: 300px;
+  left: 35px;
   border: none;
-  text-align: center;
+  border-radius: 2em;
+  font-size:large;
+}
+
+.btn-vp {
+  background-color: yellow;
+  color: black;
+  height: 35px;
+  width: 100px;
+  position: relative;
+  bottom: 300px;
+  left: 80px;
+  border: none;
+  border-radius: 2em;
+  font-size:large;
+  text-decoration: none;
+}
+
+.btn-vp > a{
+  text-decoration: none;
+  color: black;
 }
 
 .cp {
@@ -83,6 +114,28 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+form{
+  position: relative;
+  top: -355px;
+  margin-left: 30px;
+  margin-right: 300px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+form.search input {
+  line-height: 3.25em;
+  padding: 0 7em 0 1.5em;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  border-radius: 7px;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+
+
 
 h1 {
   color: beige;

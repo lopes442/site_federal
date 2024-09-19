@@ -3,6 +3,7 @@
 *{
   padding: 0px;
   margin: 0px;
+  box-sizing: border-box;
 }
 
 body {
@@ -11,36 +12,38 @@ body {
 }
 
 .header {
-  height: 25vh;
   width: 100%;
   display: flex;
   background-color: yellow;
-  border-radius: 0px 0px 30px 30px ;
+  padding: 10px 5%;
+  align-items: center;
+  /* border-radius: 0px 0px 30px 30px ; */
+  position: fixed;
+  z-index: 1;
 }
 
 .logo {
-  background-image: url(../img/gva.png);
-  background-repeat: no-repeat;
-  padding: 20px;
-  height: 20vh;
-  width: 500px;
-  position: absolute;
+  height: 60px;
+  width: 60px;
+}
+.logo img{
+  height: 100%;
+  width: 100%;
 }
 
 
 .links  {
-  display: inline-block;
-  position: fixed;
+  display: flex;
   text-decoration: none;
-  top: 0px;
-  right: 150px;
+  list-style: none;
   font-size: 1.3em;
+  margin-left: auto;
 }
 
 .links a {
   text-decoration: none;
   display: inline-block;
-  padding: 10px;
+  padding-inline: 10px;
   font-size: 1em;
 }
 
@@ -48,15 +51,9 @@ body {
   display: inline-block;
   color:beige;
   background-color: rgb(8, 22, 51);
-  height: 35px;
-  width: 100px;
   font-weight: bold;
-  padding: 10px;
-  position: fixed;
-  top: 6px;
-  right: 25px;
+  padding: 5px 25px;
   border-radius: 2em ;
-  border: solid 1px black;
   text-align: center;
 
 }

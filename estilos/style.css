@@ -16,10 +16,11 @@ body {
   display: flex;
   background-color: yellow;
   padding: 10px 5%;
+  margin-top: -4em;
   align-items: center;
-  /* border-radius: 0px 0px 30px 30px ; */
   position: fixed;
   z-index: 1;
+
 }
 
 .logo {
@@ -45,6 +46,7 @@ body {
   display: inline-block;
   padding-inline: 10px;
   font-size: 1em;
+  color: black;
 }
 
 .btn-entrar {
@@ -55,7 +57,26 @@ body {
   padding: 5px 25px;
   border-radius: 2em ;
   text-align: center;
+  margin-right: -15em;
 
+}
+
+.da{
+ position: relative;
+ margin-top: 10em;
+ margin-bottom:10px ;
+ left: -64em;
+}
+
+.da a{
+  font-size: 25px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.ri-menu-add-line{
+  font-size: 25px;
 }
 
 .btn-buscar {
@@ -69,6 +90,7 @@ body {
   border: none;
   border-radius: 2em;
   font-size:large;
+  margin-left: 22px;
 }
 
 .btn-vp {
@@ -92,13 +114,19 @@ body {
 
 .cp {
   max-width: 100%;
-  width: 600px;
   position: relative;
   right: -400px;
-  background-image: url("../img/aaa.jpg");
+  top: 1px;
+
+}
+
+.cp img{
   background-position: center;
-  background-size: cover;
-  
+  height: 100%;
+  background-size: contain;  
+  width: 90em;
+  margin-bottom: 10em ;
+ 
 }
 
 .cpt {
@@ -106,19 +134,20 @@ body {
   text-align: left;
   position: relative;
   left: -385px;
-  top: 150px;;
+  top: 250px;;
   padding: 10px;
-
-  
 }
+
 form{
   position: relative;
   top: -250px;
-  margin-left: 30px;
+  margin-left: 60px;
   margin-right: 300px;
   left: 0;
   right: 0;
   bottom: 0;
+  margin-top: 150px;
+
 }
 form.search input {
   
@@ -132,11 +161,11 @@ form.search input {
   font-weight: 300;
 }
 
+/*
 h1 {
   color: beige;
   text-align: left;
-
-
+  margin: left 10px;
 }
 
 p {
@@ -144,8 +173,32 @@ p {
   top: 10px;
   color: beige;
   text-align: left;
-  font-size: 20px;
+  font-size: 20px;  
+  margin-left: 40px;
 }
+ */
+
+ .bv{
+    color: beige;
+    text-align: left;
+    position: relative;
+    margin-top: 0px;
+    text-align: left;
+    font-size: 20px;  
+    margin-left: 40px;
+    margin-bottom: px;
+}
+
+.bv h1{
+  margin-bottom: -10px;
+}
+.bv p{
+  line-height: -15px;
+  
+}
+  
+
+ /* Parte de baixo */
 
 .stats{
   background-color: grey;

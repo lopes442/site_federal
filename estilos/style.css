@@ -18,7 +18,7 @@ body {
   padding: 10px 5%;
   margin-top: -4em;
   align-items: center;
-  position: fixed;
+  position: relative;
   z-index: 1;
 
 }
@@ -61,18 +61,21 @@ body {
 
 }
 
-.da{
- position: relative;
- margin-top: 10em;
- margin-bottom:10px ;
- left: -64em;
+.dados-abertos{
+  position: relative;
+  top: 0;
+  left: -59em;
+  right:0;
+  margin-top: 9em;
 }
 
-.da a{
-  font-size: 25px;
+.dados-abertos a {
+  font-size: 1em;
+  font-weight: bold;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  
+  color:black;
+  text-align: left;
 }
 
 .ri-menu-add-line{
@@ -85,8 +88,9 @@ body {
   height: 35px;
   width: 100px;
   position: relative;
-  bottom: 200px;
-  left: 35px;
+  bottom: 0px;
+  top: 70px;
+  left: -750px;
   border: none;
   border-radius: 2em;
   font-size:large;
@@ -99,8 +103,12 @@ body {
   height: 35px;
   width: 100px;
   position: relative;
-  bottom: 200px;
-  left: 80px;
+  bottom: -25px;
+  top: 70;
+  left: 200px;
+  right: 0;
+  
+  
   border: none;
   border-radius: 2em;
   font-size:large;
@@ -112,41 +120,56 @@ body {
   color: black;
 }
 
-.cp {
-  max-width: 100%;
+.principal {
+  display: flex;
+  height:100%;
+  
+}
+
+.search-box {
   position: relative;
-  right: -400px;
-  top: 1px;
-
+  top: -150px;
 }
 
-.cp img{
-  background-position: center;
-  height: 100%;
-  background-size: contain;  
-  width: 90em;
-  margin-bottom: 10em ;
- 
-}
-
-.cpt {
-  height: 100vh;
+.principal  h1 {
+  width: 100%;
+  color: white;
   text-align: left;
+  margin-top: 300px;
+  margin-left: 60px;
+}
+.principal p {
   position: relative;
-  left: -385px;
-  top: 250px;;
-  padding: 10px;
+  font-size: 1.2em;
+  width: 100%;
+  color: white;
+  margin-top: 400px;
+  left: -600px;
+  
+  text-align: left;
 }
 
-form{
+.principal {
+ max-width: 100%;
+ width: 100%;
+ height: 100vh;
+ background-image: url(/img/11.jpg);
+ background-position: center;
+ background-size:cover;
+ background-repeat: no-repeat;
+ position: relative;
+
+}
+
+form.search{
   position: relative;
-  top: -250px;
   margin-left: 60px;
   margin-right: 300px;
+  top: -100;
   left: 0;
   right: 0;
-  bottom: 0;
-  margin-top: 150px;
+  bottom: -20;
+ 
 
 }
 form.search input {
@@ -161,47 +184,10 @@ form.search input {
   font-weight: 300;
 }
 
-/*
-h1 {
-  color: beige;
-  text-align: left;
-  margin: left 10px;
-}
-
-p {
-  position: relative;
-  top: 10px;
-  color: beige;
-  text-align: left;
-  font-size: 20px;  
-  margin-left: 40px;
-}
- */
-
- .bv{
-    color: beige;
-    text-align: left;
-    position: relative;
-    margin-top: 0px;
-    text-align: left;
-    font-size: 20px;  
-    margin-left: 40px;
-    margin-bottom: px;
-}
-
-.bv h1{
-  margin-bottom: -10px;
-}
-.bv p{
-  line-height: -15px;
-  
-}
-  
-
  /* Parte de baixo */
 
 .stats{
-  background-color: grey;
+  background-color: rgb(26, 23, 23);
   display: flex;
   border-radius: 10px 10px 0px 0px;
   margin-left: 25px;

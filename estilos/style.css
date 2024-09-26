@@ -14,7 +14,7 @@ body {
 .header {
   width: 100%;
   display: flex;
-  background-color: yellow;
+  background-color:gold;
   padding: 10px 5%;
   margin-top: -4em;
   align-items: center;
@@ -83,7 +83,7 @@ body {
 }
 
 .btn-buscar {
-  background-color: yellow;
+  background-color: gold;
   color: black;
   height: 35px;
   width: 100px;
@@ -98,7 +98,7 @@ body {
 }
 
 .btn-vp {
-  background-color: yellow;
+  background-color: gold;
   color: black;
   height: 35px;
   width: 100px;
@@ -184,16 +184,7 @@ form.search input {
   font-weight: 300;
 }
 
- /* Parte de baixo */
 
-.stats{
-  background-color: rgb(26, 23, 23);
-  display: flex;
-  border-radius: 10px 10px 0px 0px;
-  margin-left: 25px;
-  margin-right: 25px;
-
-}
 .dados_itens{
   width: 100%;
   padding: 10px;
@@ -212,3 +203,64 @@ font-size: 18px;
   width: 70px;
 }
 
+/* Parte de baixo */
+
+.stats{
+  background-color:#131313;
+  display: flex;
+  border-radius: 20px 20px 0px 0px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: -82px;
+}
+.stats a{
+  margin-top: 40px;
+}
+h2 {
+  font-size: 1em;
+  background-color:#131313;
+  color: white;
+  width: 100%;
+  text-indent: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+h3 {
+  color: white;
+  width: 100%;
+  font-size: 1.75em;
+  margin-top: 30px;
+  text-indent: 40px;
+  
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  align-content: center;
+}
+
+.wrap {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #131313;
+  margin-left: 25px;
+  margin-right: 25px;
+  
+
+}
+
+.btn-vertodas {
+  color:white ;
+  background: transparent;
+  border: none;
+  position: relative;
+  right: 85px;
+  font-size: 20px;
+}
+
+.bx{
+    font-size: 1em;
+}
